@@ -5,8 +5,8 @@ export const test_camel = {
     pageNumber: 1,
     pageSize: 10,
     bigIdioticNamingConvention: "asdf",
-    ID: 1,
-    testID: 1,
+    id: 1,
+    testId: 1,
     deepOneLevel: {
       testTwo: {
         pageTransitionEvent: [

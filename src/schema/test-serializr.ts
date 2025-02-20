@@ -26,10 +26,10 @@ class Meta {
   bigIdioticNamingConvention?: string;
 
   @serializable(alias("id", primitive()))
-  ID?: number;
+  id?: number;
 
   @serializable(alias("test_id", primitive()))
-  testID?: number;
+  testId?: number;
 
   @serializable(alias("deep_one_level", object(DeepOneLevel)))
   deepOneLevel?: DeepOneLevel;
